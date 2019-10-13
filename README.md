@@ -9,8 +9,10 @@ To run
     ./run.sh  
 
 To query
+
     ./query.sh
 
 
 To stop container
+
     ./stop.sh

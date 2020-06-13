@@ -52,10 +52,12 @@ docker exec -it snmpsim bash
   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
   00 00 00 00
   ```
-  * use utils script to concat Hex-STRING to single line  
+  * use utils script to concat Hex-STRING to single line
+    * inputfile `test_snmpwalk` - output from snmpwalk
+    * output to inputfile with `.snmprec` extension
 
   ```
-  python fix_hexstring.py test_snmpwalk_input.txt test_snmpwalk_output.txt
+  python fix_hexstring.py test_snmpwalk
   ```
 
 
